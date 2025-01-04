@@ -1,11 +1,40 @@
-> Why do I have a folder named ".expo-shared" in my project?
+# To Do (React Native)
 
-The ".expo-shared" folder is created when running commands that produce state that is intended to be shared with all developers on the project. For example, "npx expo-optimize".
+<p align="center">
+  <img src="doc/screenshot.png" width="300" alt="App Screenshot">
+</p>
 
-> What does the "assets.json" file contain?
+## About the Project
 
-The "assets.json" file describes the assets that have been optimized through "expo-optimize" and do not need to be processed again.
+React Native To Do application created for learning purposes.
 
-> Should I commit the ".expo-shared" folder?
+You can add tasks, delete them and mark as done.
 
-Yes, you should share the ".expo-shared" folder with your collaborators.
+### Built With
+
+- Expo
+- React Native
+- Redux
+- Redux Toolkit
+- Redux Persist
+- Husky
+- Prettier
+
+## Installation and Usage
+
+```
+npm install
+```
+
+To make the pre-commit hook work, you need to run `npm install` when the project is already initialized as a Git repository.
+
+If the project is initialized as a repository later, you need to additionally execute `npm run prepare`.
+
+```
+npm start
+```
+
+## Contact
+
+Anuj Sharma 
+Email: anujsharma948494@gmail.com
